@@ -1,0 +1,25 @@
+{
+  "name": "sps-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "startDev": "PORT=8080 node ./bin/www"
+  },
+  "dependencies": {
+    "acl": "^0.4.11",
+    "axios": "^0.18.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mongo-gridfs": "^1.1.0",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.9",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "multer-gridfs-storage": "^3.2.3",
+    "pug": "2.0.0-beta11"
+  }
+}
